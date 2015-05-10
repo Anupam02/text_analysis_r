@@ -1,8 +1,7 @@
 source("extracttext.R")
 source("extractfile.R")
 source("textrelFreq.R")
-source("file.R")
-source("text.R")
+
 shinyServer(
   function(input,  output) {
     user.data <- reactive({
